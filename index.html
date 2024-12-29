@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left-section">
+            <div class="odin-banner">
+                <img class="odin-logo" src="images/odin-lined.png" alt="odin project logo">ODIN
+            </div>
+            <p class="image-credits">
+                Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/"> Unsplash</a>
+            </p>
+        </div>
+        
+        <div class="right-section">
+
+            <div class="cta">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <i>now</i> to get started. </p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+
+                <div class="sign-up-banner">
+
+
+                <div class="form-title">Let's do this!</div>
+
+                    <form action="https://httpbin.org/post" method="post">
+
+                        <div class="sign-up-container">
+
+                            <div class="col-1">
+                                
+                                <div class="form-group">
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" name="first_name" id="first_name">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" name="password" id="password" min="1">
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" name="last_name" id="last_name">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phote_number">PHONE NUMBER</label>
+                                    <input type="tel" name="phone_number" id="phone_number">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                                    <input type="password" name="confirm_password" id="confirm_password" min="1">
+                                </div>
+                                
+                            </div>
+                        </div>
+                  </form>
+                </div>
+            
+            <button class="create-account-button">Create Account</button>
+            <div class="login-link-cta">Already have an account? <a href="" class="login-link">Log in</a></div>
+
+        </div>
+    </div>
+</body>
+</html>
